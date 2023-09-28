@@ -1,6 +1,5 @@
 from datetime import datetime
 from django_cron import CronJobBase
-
 import views
 
 class MyCronJob(CronJobBase):
