@@ -2,9 +2,6 @@ from django.shortcuts import render
 import requests
 from bs4 import BeautifulSoup
 from django.shortcuts import HttpResponse
-# from models import Property
-
-
 from pymongo import MongoClient
 from datetime import datetime
 import pymongo
