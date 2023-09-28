@@ -61,4 +61,3 @@ url = 'https://housing.com/'
 database_name = 'admin'  
 collection_name = 'housing'  
 scrape_and_save_to_mongodb(url,"admin", "housing")
-cd

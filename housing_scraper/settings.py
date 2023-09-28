@@ -74,17 +74,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "housing_scraper.wsgi.application"
 
-
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.sqlite3",
-#         "NAME": BASE_DIR / "db.sqlite3",
-#     }
-# }
-# MongoDB configuration
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.dummy',  # Use a dummy database engine.
@@ -145,4 +134,4 @@ CRONJOBS = [
      
 ]
 
-# appname.module.function
+

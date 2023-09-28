@@ -1,4 +1,3 @@
-# from djwutils.cron import CronJobBase
 from datetime import datetime
 from django_cron import CronJobBase
 
@@ -12,7 +11,6 @@ class MyCronJob(CronJobBase):
         database_name = 'admin'  
         collection_name = 'housing'  
         views.scrape_and_save_to_mongodb(url,"admin", "housing")   
-        # Your custom code here
         print(f"MyCronJob ran at {datetime.now()}")
 
 
